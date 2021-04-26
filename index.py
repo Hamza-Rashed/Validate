@@ -25,13 +25,6 @@ def validateJsonText(jsonText):
 		return False
 	return True
 
-	# try:
-    #     json.load(jsonFile)
-    # except ValueError as err:
-    #     print(err)
-    #     return False
-    # return True
-
 def validateJsonFile(jsonFile):
 	""" Validate any json file but you need to open it then you have to put it as a param """
 	try:
