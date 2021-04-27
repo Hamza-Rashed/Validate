@@ -1,7 +1,3 @@
-from xml.dom import minidom
-from lxml import etree
-import json
-
 
 class Validate:
     def __init__(self, massegeText, formatType, checkValue):
@@ -11,7 +7,7 @@ class Validate:
 
 
     def validateMassege(self):
-        """ Validate any json string For Ex : """
+        """ Validate any json and XML massege """
         if self.formatType(self.massegeText) == True:
             if self.checkValue(self.massegeText) == True:
                 return "all Thing is good"
