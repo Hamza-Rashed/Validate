@@ -48,7 +48,7 @@ XMLText = '''
                 <amount>483</amount>
                 <currency>JOD</currency>
             </applied_money>
-            <id>cfc92a12-f847-4942-b6ec-1454d194c9a</id>
+            <id>cfc92a12-f847-4942-b6ec-1454d194c9ba</id>
             <inclusion_type>INCLUSIVE</inclusion_type>
             <is_custom_amount>true</is_custom_amount>
             <name>Sales Tax</name>
