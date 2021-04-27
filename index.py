@@ -9,6 +9,7 @@ class Validate:
         self.formatType = formatType
         self.checkValue = checkValue
 
+
     def validateMassege(self):
         """ Validate any json string For Ex : """
         if self.formatType(self.massegeText) == True:
@@ -16,3 +17,4 @@ class Validate:
                 return "all Thing is good"
             return self.checkValue(self.massegeText)
         return "Format Not Correct"
+
